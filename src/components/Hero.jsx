@@ -1,8 +1,8 @@
 function Hero() {
   return (
-    <section className="hero">
-      <h1>Hero Section</h1>
-      {/* Add your hero content here */}
+    <section id="home" className="hero">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Second Year San Jose State University Student studying Computer Networks Systems</p>  
     </section>
   );
 }
