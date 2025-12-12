@@ -72,14 +72,13 @@ body {
 }
 
 /* Hero Section */
-/* Hero Section */
 .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #313237 0%, #764ba2 100%);
   color: white;
 }
 
@@ -376,5 +375,20 @@ section {
   
   .hero-buttons {
     flex-direction: column;
+  }
+}
+.cursor {
+  display: inline-block;
+  margin-left: 3px;
+  animation: blink 1s infinite;
+  color: #ffd700; /* or white, depending on your design */
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
   }
 }
