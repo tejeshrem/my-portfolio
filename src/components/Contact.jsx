@@ -33,13 +33,13 @@ function Contact() {
               or just having a chat. Feel free to reach out!
             </p>
             <div className="social-links">
-              <a href="mailto:your.email@example.com" className="social-link">
+              <a href="mailto:tejesh.remududuru@gmail.com" className="social-link">
                 📧 Email
               </a>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://www.linkedin.com/in/tejesh-remuduru-7b70b7270/" target="_blank" rel="noopener noreferrer" className="social-link">
                 💼 LinkedIn
               </a>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://github.com/tejeshremuduru" target="_blank" rel="noopener noreferrer" className="social-link">
                 💻 GitHub
               </a>
             </div>

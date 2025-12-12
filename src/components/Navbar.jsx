@@ -11,7 +11,7 @@ function Navbar() {
         <div className="nav-container">
           <div className="nav-logo">
             <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
-              Your Name
+              Tejesh Remuduru
             </a>
           </div>
           <ul className="nav-menu">
