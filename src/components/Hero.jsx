@@ -55,7 +55,7 @@ function Hero() {
         // Pause before deleting
         timer = setTimeout(() => {
           setIsDeleting(true);
-        }, 2000); // Wait 2 seconds before deleting
+        }, 10000); // Wait 10 seconds before deleting
       } else if (isDeleting && descText === '') {
         // Move to next description
         setIsDeleting(false);
