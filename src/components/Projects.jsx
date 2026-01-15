@@ -2,27 +2,21 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Project 1",
-      description: "A brief description of your project and what it does.",
-      technologies: ["React", "CSS", "JavaScript"],
-      link: "#",
-      github: "#"
+      title: "Mind Valet",
+      description: "Built Mind Valet, a Meditaiton AI mobile app using React Native to deliver a performant, cross-platform iOS and Android experience with modular components and efficient state management. ",
+      technologies: ["React", "CSS", "JavaScript"]
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "Another project description showcasing your skills.",
-      technologies: ["Python", "Flask", "SQL"],
-      link: "#",
-      github: "#"
+      title: "Server Log Analysis API",
+      description: "Built a Python backend using FastAPI to support a secure log analysis service. The API includes JWT-based authentication with bcrypt password hashing and automatic OpenAPI documentation for easy testing and iteration. The project is designed incrementally, starting with core service reliability and security before adding persistent storage and detection logic.",
+      technologies: ["FastAPI", "Python ", "JWT Auth", "bcrypt", "OpenAPI", "Git"]
     },
     {
       id: 3,
       title: "Project 3",
       description: "Describe your third project here.",
-      technologies: ["Node.js", "Express", "MongoDB"],
-      link: "#",
-      github: "#"
+      technologies: ["Node.js", "Express", "MongoDB"]
     }
   ];
 
@@ -39,14 +33,6 @@ function Projects() {
                 {project.technologies.map((tech, index) => (
                   <span key={index} className="tech-tag">{tech}</span>
                 ))}
-              </div>
-              <div className="project-links">
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
-                  Live Demo
-                </a>
-                <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
-                  GitHub
-                </a>
               </div>
             </div>
           ))}
