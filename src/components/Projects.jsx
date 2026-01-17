@@ -4,7 +4,7 @@ function Projects() {
       id: 1,
       title: "Mind Valet",
       description: "Built Mind Valet, a Meditaiton AI mobile app using React Native to deliver a performant, cross-platform iOS and Android experience with modular components and efficient state management. ",
-      technologies: ["React", "CSS", "JavaScript"]
+      technologies: ["ReactNative", "TypeScript", "JavaScript", "React Navigation", "Firebase"]
     },
     {
       id: 2,
